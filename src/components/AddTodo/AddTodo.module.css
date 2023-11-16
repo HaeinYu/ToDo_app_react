@@ -1,0 +1,32 @@
+.form {
+  width: 100%;
+  display: flex;
+  padding: 1.4rem 1rem;
+  align-items: center;
+}
+
+.input {
+  flex: 1 0 auto;
+  font-size: 1.4rem;
+  padding: 0.7rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: var(--color-bg);
+}
+
+.button {
+  cursor: pointer;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0 20px;
+  border-radius: 8px;
+  height: 2.1rem;
+  margin-left: 4rem;
+}
+
+.button:hover {
+  filter: brightness(125%);
+}

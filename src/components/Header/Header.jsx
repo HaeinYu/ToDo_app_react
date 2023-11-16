@@ -6,7 +6,7 @@ export default function Header({ filters, filter, onFilterChange }) {
     <header className={styles.header}>
       <div className={styles.title}>
         <h1>Todo Flight</h1>
-        <h2>Turning Plans into Realisty</h2>
+        <h2>Turning Plans into Reality</h2>
       </div>
       <ul className={styles.filters}>
         {filters.map((value, index) => (
