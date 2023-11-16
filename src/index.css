@@ -5,6 +5,10 @@
   --color-text: #22243b;
   --color-accent: #3478f6;
   --color-white: white;
+  --color-red: #ff5d5b;
+  --color-yellow: #ffbb39;
+  --color-green: #00cd4e;
+  --color-scrollbar: #aaa7a7;
 }
 
 body {
@@ -20,6 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  accent-color: var(--color-accent);
   background-image: url(./components/images/bg-img.png);
   background-position: 0% 70%;
 }
@@ -33,7 +38,6 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--color-bg);
-  backdrop-filter: blur(10px);
 }
 
 code {
@@ -53,4 +57,12 @@ ul {
 button {
   outline: none;
   border: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-accent);
 }
