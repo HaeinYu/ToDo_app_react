@@ -2,10 +2,14 @@ body {
   margin: 0;
 }
 
-.wrapper {
+.windowHeader {
+  display: flex;
+  padding-top: 20px;
+}
+
+.windowBtn {
   display: flex;
   padding-left: 10px;
-  padding-top: 20px;
 }
 
 .close,
@@ -99,4 +103,36 @@ body {
 .max:hover:after {
   top: 50%;
   opacity: 1;
+}
+
+.toggleBg {
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.darkMode {
+  content: '';
+  position: relative;
+  height: 42px;
+  width: 42px;
+  margin-left: 5px;
+  border-radius: 50px;
+  background-color: var(--color-white);
+  transition: 0.4s;
+}
+
+.lightMode {
+  content: '';
+  height: 42px;
+  width: 42px;
+  border-radius: 50px;
+  background-color: var(--color-white);
+  transition: 0.4s;
+  transform: translate(170%);
 }
