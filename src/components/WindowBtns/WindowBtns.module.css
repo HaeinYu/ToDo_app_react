@@ -116,7 +116,7 @@ body {
   margin-right: 10px;
 }
 
-.darkMode {
+.lightMode {
   content: '';
   position: relative;
   height: 42px;
@@ -127,7 +127,7 @@ body {
   transition: 0.4s;
 }
 
-.lightMode {
+.darkMode {
   content: '';
   height: 42px;
   width: 42px;
